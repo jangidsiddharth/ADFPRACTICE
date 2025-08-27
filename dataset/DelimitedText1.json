@@ -1,0 +1,60 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "bengaluru_house_prices.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "area_type",
+				"type": "String"
+			},
+			{
+				"name": "availability",
+				"type": "String"
+			},
+			{
+				"name": "location",
+				"type": "String"
+			},
+			{
+				"name": "size",
+				"type": "String"
+			},
+			{
+				"name": "society",
+				"type": "String"
+			},
+			{
+				"name": "total_sqft",
+				"type": "String"
+			},
+			{
+				"name": "bath",
+				"type": "String"
+			},
+			{
+				"name": "balcony",
+				"type": "String"
+			},
+			{
+				"name": "price",
+				"type": "String"
+			}
+		]
+	}
+}
