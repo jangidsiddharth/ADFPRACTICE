@@ -11,6 +11,21 @@
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"bloblinedservice_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "srhpractice.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "pocdatabasetest"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "SIDDHARTH"
+		},
 		"containerUri": {
 			"value": ""
 		},
